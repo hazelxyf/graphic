@@ -1,0 +1,176 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+
+p {
+    font-size: 0.9em;
+    line-height: 1.8em;
+}
+
+h1, h2, h3 {
+    font-family: Lato;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+h1 {
+    margin: 0;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 240%;
+    word-spacing: 4px;
+}
+
+h2 {
+    font-size: 180%;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+    
+}
+
+
+
+h3 {
+    font-size: 140%;
+    margin-bottom: 15px;
+}
+
+ul, li, i {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0em 20px 0em 20px;
+    margin: -70px 0px;
+}
+
+.logo img{
+    width: 300px;
+    position: relative;
+    top: 0px;
+    left: -20px;
+}
+
+#nav {
+    overflow: visible; 
+}
+
+.fa-bars {
+    font-size: 30px;
+}
+
+.hide-mobile {
+    display: none;
+}
+
+section {
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url("images/william-iven-19843-unsplash.jpg");
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.tagline {
+    position: absolute;
+    top: 100px;
+    left: 20px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.topic {
+    position: absolute;
+    top: 200px;
+    left: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 50px 0px;
+}
+
+.topic ul {
+    display: flex;
+    position: relative;
+    top: 10vh;
+}
+
+.topic li {
+    align-self: flex-start;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 50px;
+    background-color: #FFD23E;
+    color: #092442;
+    border: 1px solid #FFD23E;
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+}
+
+i {
+    padding: 0px 10px 0px 0px;
+}
+
+.dcontainer {
+    background-image: url("images/cubes_@2X.png");
+    background-repeat: repeat;
+    height: 100%;
+    top: -200px;
+    padding-bottom: 50px;
+}
+
+.dcontainer h2 {
+    margin: 0px auto;
+    padding-top: 50px;
+}
+
+.section-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.printer1, .printer2, .printer3 {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 400px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 30px;
+    box-sizing: border-box;
+    background-color: white;
+    margin-top: 30px;
+}
+
+.card-img {
+    width: 100%;
+}
+
+.music {
+    text-align: center;
+}
+
+.music h2 {
+    margin: 0px auto;
+    padding-top: 50px;
+}
